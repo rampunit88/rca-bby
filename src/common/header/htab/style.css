@@ -1,0 +1,24 @@
+
+.dropdown-menu {
+    width: 100% !important;
+  }
+
+.nav-widget-item-circle {
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 900px) {
+    .nav-widget-container:hover {
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-widget-item-circle {
+        height: 40px;
+        width: 40px;
+    }
+}

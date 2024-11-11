@@ -1,0 +1,34 @@
+#navbarScrollingDropdown .dropdown-menu {
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 0;
+  }
+.mega-menu{
+    background-color: bisque;
+    width: 100%;
+}  
+.dropdown-menu {
+    width: 100% !important;
+  }
+
+.nav-widget-item-circle {
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 900px) {
+    .nav-widget-container:hover {
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-widget-item-circle {
+        height: 40px;
+        width: 40px;
+    }
+}

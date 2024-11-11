@@ -1,0 +1,21 @@
+
+  .mega-menu .mega-menu-content {
+    width: 90vw; /* Full width of the viewport */
+    
+    transform: translateX(-95%); /* Adjust to start from the left edge */
+    left: 75%;
+    right: 0;
+    top: 100%; /* Position just below the menu */
+    
+    position: absolute;
+    background-color: rgb(247, 177, 177); /* Adjust background color */
+    /* border: 1px solid #ddd; */
+    z-index: 1000;
+    margin: 0 auto;
+  }
+  .mega-menu .dropdown-menu {
+    /* position: static !important; */ /* Override default position */
+    width: 100%;
+    padding: 0;
+  }
+  

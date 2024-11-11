@@ -1,0 +1,28 @@
+/* Style for the Mega Menu */
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: static;
+    width: 100% !important;
+    padding: 1rem;
+}
+.mega-menu .dropdown-menu {
+    width: 100% !important;
+    padding: 1rem;
+    position: relative;
+  }
+  
+  .mega-menu-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100% !important;
+  }
+  
+  .mega-menu-content h6 {
+    font-weight: bold;
+  }
+  
+  .mega-menu-content .col {
+    margin: 0 1rem;
+  }
+  
